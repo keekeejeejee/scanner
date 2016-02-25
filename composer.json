@@ -2,16 +2,8 @@
     "name": "keekeefulldive/scanner",
     "description": "Scan URLs and report inaccessible ones. Built from an exercise in the book Modern PHP.",
     "keywords": ["url", "scanner", "scan"],
-    "homepage": "selloutsoftware.com",
     "license": "MIT",
-    "authors": [
-        {
-            "name": "Cole Jackowski",
-            "homepage": "selloutsoftware.com",
-            "role": "Developer"
-        }
-    ],
-    "support": "colejackowski@gmail.com",
+
     "require": {
         "php": ">=5.4.0",
         "guzzlehttp/guzzle": "~5.0"
@@ -19,9 +11,7 @@
     "require-dev": {
         "phpunit/phpunit": "~4.3"
     },
-    "suggest": {
-        "league/csv": "~6.0"
-    },
+   
     "autoload": {
         "psr-4": {
             "Oreilly\\ModernPHP\\": "src/"
