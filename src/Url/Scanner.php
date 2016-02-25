@@ -30,7 +30,7 @@ class Scanner
     public function getInvalidUrls()
     {
         $invalidUrls = [];
-        foreach (this->urls as $url) {
+        foreach ($this->urls as $url) {
             try {
                 $statusCode = $this->getStatusCodeForUrl($url);
             } catch (\Exception $e) {
