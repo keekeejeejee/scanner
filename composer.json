@@ -1,7 +1,7 @@
 {
     "name": "keekeefulldive/scanner",
     "description": "Scan URLs and report inaccessible ones. Built from an exercise in the book Modern PHP.",
-    "keywords": ["url", "scanner", "scan", "1.0.0"],
+    "keywords": ["url", "scanner", "scan"],
     "homepage": "selloutsoftware.com",
     "license": "MIT",
     "authors": [
